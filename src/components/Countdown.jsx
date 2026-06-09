@@ -165,7 +165,7 @@ const Countdown = () => {
             className="text-xs uppercase tracking-[0.25em] mb-10"
             style={{ color: '#8B6E5A' }}
           >
-            Monday · 27 July 2026 · 1447 Safar 2
+            Monday · 27 July 2026 · 1448 Safar 13
           </motion.p>
 
           {/* Countdown numbers */}
