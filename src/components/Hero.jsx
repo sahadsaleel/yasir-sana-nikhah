@@ -71,7 +71,7 @@ const Hero = () => {
         {/* Left: Text content */}
         <div className="flex-1 flex flex-col items-center justify-center px-8 py-20 lg:py-0 text-center lg:text-left lg:items-start lg:pl-16 xl:pl-24">
 
-          {/* Bismillah Arabic — was #8B6E5A, now deep espresso */}
+          {/* Bismillah Arabic */}
           <motion.p
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -82,7 +82,7 @@ const Hero = () => {
             بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
           </motion.p>
 
-          {/* Bismillah translation — was #8B6E5A, now #6B4A38 */}
+          {/* Bismillah translation */}
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -175,26 +175,39 @@ const Hero = () => {
             <div className="flex-1 h-px" style={{ background: '#C9A84C' }} />
           </motion.div>
 
-          {/* Date & venue — was #8B6E5A, now darker readable brown */}
+          {/* Date + beautiful marriage line */}
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1.4 }}
-            className="flex flex-col gap-1 mb-10"
+            className="flex flex-col gap-3 mb-10"
+            style={{ maxWidth: '38ch' }}
           >
+            {/* Date */}
             <p
               className="text-sm uppercase tracking-[0.2em]"
               style={{ color: '#5C3D2E' }}
             >
-              Tuesday, 28 July 2026
+              Monday, 27 July 2026
             </p>
+
+            {/* Marriage line */}
             <p
-              className="text-sm uppercase tracking-[0.15em]"
-              style={{ color: '#6B4A38' }}
+              style={{
+                color: '#6B4A38',
+                fontFamily: "'Playfair Display', Georgia, serif",
+                fontStyle: 'italic',
+                fontSize: '1rem',
+                lineHeight: 1.7,
+                letterSpacing: '0.02em',
+              }}
             >
-              Green Land Auditorium, Athanipadi
+              Two souls, one path —<br />
+              bound by faith, blessed by love.
             </p>
           </motion.div>
+
+
         </div>
 
         {/* Right: Hero image */}

@@ -248,7 +248,7 @@ const BrideGroom = () => {
             className="text-xs uppercase tracking-widest"
             style={{ color: '#C9A84C' }}
           >
-            Insha Allah · 28 July 2026 · 1448 Safar 13
+            Insha Allah · 27 July 2026 · 1448 Safar 13
           </p>
         </motion.div>
       </div>
