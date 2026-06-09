@@ -418,7 +418,7 @@ const WeddingDetails = () => {
           className="text-center text-xs uppercase tracking-[0.25em] mt-12"
           style={{ color: '#8B6E5A' }}
         >
-          Sharing the happiness &nbsp;·&nbsp; Puthuparambil Family &nbsp;·&nbsp; M4M: 9746226371
+          Sharing the happiness &nbsp;·&nbsp; Puthuparambil Family
         </motion.p>
       </div>
 
